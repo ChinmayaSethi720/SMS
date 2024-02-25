@@ -4,7 +4,7 @@ public class App {
 		
 	public static void main(String[] args) throws ClassNotFoundException, SQLException {
 		Scanner sc= new Scanner(System.in);
-		
+		//Hello World
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/sms","root","Chinu720@");
 		System.out.println(con);
