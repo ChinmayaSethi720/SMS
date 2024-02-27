@@ -6,7 +6,7 @@ public class App {
 		Scanner sc= new Scanner(System.in);
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/sms","root","Chinu720@");
+		Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/sms","sms","Sms_id_117");
 		System.out.println(con);
 		while(true) {
 			
